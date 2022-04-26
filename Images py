@@ -1,0 +1,10 @@
+from tkinter import *
+# Fix pil issue use this link: https://blog.finxter.com/how-to-install-pillow-on-pycharm/
+from PIL import ImageTk,Image
+root = Tk()
+root.title("Images")
+
+my_img = ImageTk.PhotoImage(Image.open(''))
+
+
+root.mainloop()
