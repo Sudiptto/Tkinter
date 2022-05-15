@@ -4,7 +4,7 @@ from PIL import ImageTk,Image
 root = Tk()
 root.title("Images")
 
-my_img = ImageTk.PhotoImage(Image.open(''))
+my_img = ImageTk. PhotoImage(Image.open(''))
 
 
 root.mainloop()
